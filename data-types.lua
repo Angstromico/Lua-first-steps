@@ -13,3 +13,7 @@ local isFunc = function() -- Functions in Lua are first-class values. They can b
 end
 
 local isFloat = 3.14 -- Floats in Lua are numbers with decimal points. They are used for representing real numbers.
+
+local isMultiLineString = [[ -- Multi-line strings in Lua are enclosed in double square brackets. They can span multiple lines and preserve line breaks.
+This is a multi-line string. It can contain line breaks and special characters.
+]]
