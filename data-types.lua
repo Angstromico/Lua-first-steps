@@ -11,3 +11,5 @@ local isFalse = false -- Booleans in Lua have two values: true and false. They a
 local isFunc = function() -- Functions in Lua are first-class values. They can be assigned to variables, passed as arguments, and returned from other functions.
     print("This is a function.")
 end
+
+local isFloat = 3.14 -- Floats in Lua are numbers with decimal points. They are used for representing real numbers.
